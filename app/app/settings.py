@@ -36,6 +36,7 @@ if DEBUG and os.getenv('SL_PUBLIC_URL'):
 # Application definition
 
 INSTALLED_APPS = [
+    'todo.apps.TodoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
